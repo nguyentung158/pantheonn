@@ -258,7 +258,7 @@
                 var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subNav')
                 console.log(this);
                 if (isParentMenu) {
-                    event.preventDefault;
+                    event.preventDefault();
                 } else {
                     header.style.height = null;
                 }
@@ -295,7 +295,7 @@
         modal.addEventListener('click', closeBuySkins)
 
         modalContainer.addEventListener('click', function(event) {
-            event.stopPropagation()
+            event.stopPropagation();
         })
     </script>
 </body>

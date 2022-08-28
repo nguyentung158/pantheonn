@@ -189,7 +189,7 @@ html {
     top: 46.5px;
     padding-top: 50%;
     background-color: grey;
-    background-image: url(/assets/img/Slider/slider1.jpg)  ,url('https://images4.alphacoders.com/103/thumb-1920-1033348.jpg');
+    background-image: url(../img/Slider/slider1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -326,7 +326,7 @@ html {
 
 #container .skin-section {
     /* width: 800px; */
-    padding: 32px 0 64px;
+    padding: 16px 0 64px;
     /* margin: 0 -8px; */
 }
 
